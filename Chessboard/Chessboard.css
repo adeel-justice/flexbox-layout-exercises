@@ -1,0 +1,151 @@
+/* .Chessboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+} */
+
+#row1 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row1 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row1 > div:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+#row2 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row2 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row2 > div:nth-child(even) {
+    background-color: dodgerblue;
+}
+
+#row3 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row3 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row3 > div:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+#row4 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row4 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row4 > div:nth-child(even) {
+    background-color: dodgerblue;
+}
+
+#row5 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row5 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row5 > div:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+#row6 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row6 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row6 > div:nth-child(even) {
+    background-color: dodgerblue;
+}
+
+#row7 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row7 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row7 > div:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+#row8 {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#row8 > div {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+
+#row8 > div:nth-child(even) {
+    background-color: dodgerblue;
+}
