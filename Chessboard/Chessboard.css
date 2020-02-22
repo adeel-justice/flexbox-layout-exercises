@@ -5,7 +5,7 @@
     width: 640px;
     height: 640px;
 } */
-
+/*
 #row1 {
     width: 640px;
     height: 80px;
@@ -148,4 +148,33 @@
 
 #row8 > div:nth-child(even) {
     background-color: dodgerblue;
+}
+*/
+
+.board {
+    width: 800px;
+    height: 800px;
+    /* height: 60vh;
+    width: 60vh; */
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    flex: 1;
+}
+
+.square.white {
+    background: orange;
+}
+.square.black {
+    background: blue;
 }
